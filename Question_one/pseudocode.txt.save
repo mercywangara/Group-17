@@ -1,0 +1,15 @@
+Develop a system for planning travel itineraries.Users can add destinations, 
+estimated travel times, activities, preferences and accomodations. Provide 
+suggestions for attractionsand restaurants based on destination and travel 
+dates.
+
+Input: Destination(string)
+      Activities(List<String>)
+	Accomodations(List<String>)
+	Preferences(List<String>)
+Process: Create a function to hold user details as highlighted above
+	Create a list holding destinations with their corresponding attractions
+	Create another list holding destinations with corresponding restaurants
+	Check if destinations entered by the user correspond with attractions and restaurants 
+	In case the destination matches destination in attractions, then suggest them attractions, or if the destination is similar in restaurants, suggest them the restaurants.
+Output: List of attractions and restaurant suggestions
