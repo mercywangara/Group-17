@@ -22,7 +22,7 @@ function addDestination({ destination, travelTime, activities, preferences, acco
     accommodation,
     dates
   });
-  console.log(`${destination} added to your itinerary.`);
+  console.log(`${destination} added to your itinerary.`)
 }
 
 function suggest(destination) {
@@ -39,7 +39,7 @@ function suggest(destination) {
   if (restaurants.length) {
     restaurants.map(rest => console.log(` ${rest}`));
   } else {
-    console.log("No suggestions available");
+    console.log("No suggestions available")
   }
 }
 
