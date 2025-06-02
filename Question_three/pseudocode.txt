@@ -1,0 +1,17 @@
+Question three:
+1.You're implementing an online shopping cart system. Each item in the cart has a unique identifier. Design a data structure that efficiently supports adding items
+to the cart, removing items from the cart and checking if a specific item is in the cart.
+
+Input:
+1. Item name
+
+Pseudocode
+1. Create an empty set.
+2. Add an item to the cart.
+3. If the item already exists in the set, the set will display an error.
+4. Remove an item from the set.
+5. Show all items in the set to know if certain items exist in the set.
+
+Output:
+-True or false for item availability.
+-Updated set
