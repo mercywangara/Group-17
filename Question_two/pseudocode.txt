@@ -1,3 +1,24 @@
 Question two: Design a dynamic system to assist university students in planning their course schedules, considering the prerequisites required for each course, changing course offerings, 
-and individual academic progress. This system could integrate with real time registration systems,provide feedback on course fulfillment and help students navigate their academic courses 
+and individual academic progress. This system could integrate with real-time registration systems, provide feedback on course fulfillment, and help students navigate their academic courses 
 efficiently, avoiding scheduling conflicts and unnecessary delays in their educational journey.
+
+
+Input
+-Student name, ID, majors, year, and completed courses
+-List of course offerings 
+-Desired courses
+
+
+
+Pseudocode
+1. Create a list of students' majors, year, and  completed courses.
+2. Create a list of courses offered in the upcoming terms, including: course name, IDs, prerequisites, availability, scheduled time, and descriptions.
+3. For each course, map it to its prerequisites.
+4. For the current term, the schedule of the student should only include the courses for which the prerequisites are met, are available, and exclude the courses the student has completed.
+5. The student can select a desired course from their schedule.
+6. Create a list of students' completed courses and grades.
+7. For each course, if a new grade is available, it should be added to the grades.
+
+Output
+-A list of recommended courses for the upcoming term.
+
